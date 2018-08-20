@@ -1,0 +1,90 @@
+body{
+    background-color: white; 
+    margin: 0;
+    overflow: hidden;
+}
+
+section{
+    display: flex;
+}
+
+.sobre{    
+    width:50vw;
+    align-items: center;
+    justify-content: left;
+    margin-left: 38%;
+    margin-top: 11%;
+    font-family: 'Comfortaa';
+    font-size: 20pt; 
+    text-align: center;  
+}
+
+#img{
+    background-image: url(../imagens/como-funciona/pagcomofunciona-01.png);
+    background-size: 78%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    width: 47%;
+    height: 100%;
+    margin: 0;
+    color: black;
+    background-repeat: no-repeat;
+}
+h1{
+    color: black;
+    font-weight: lighter;
+}
+h2{
+    color: gray;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+#leg{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 9pt;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+
+.itens:hover{
+    opacity: 0.6;
+}
+
+.logo{
+    display: flex;
+    width: 9%;
+    height: 8%;
+    margin-right: 2%;
+}
+
+#itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.itens{
+    display: flex;
+    height: 9%;   
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+a{
+    color: rgb(43, 41, 41);
+    font-size: 25pt;
+    display: flex;
+    text-decoration: none;
+    padding-top: 28%;
+    font-family: 'Comfortaa', cursive;
+    
+}
