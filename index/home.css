@@ -16,6 +16,7 @@ section{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    /* width:100vw; */
 }
 
 a{
@@ -145,7 +146,13 @@ h1{
 }
 
 @media (max-width:650px){
-    .col-md-3{
+    div#barra a{
+        font-size: 7pt;
+        
+        align-items: center;
+    }
+
+    .coluna{
         font-size: 7pt;
     }
     h1#helpet{
@@ -155,7 +162,12 @@ h1{
         /* display: none; */
         size: 10mm;
     }
-    
+
+    section{
+        flex-direction: column;
+    }
+}
+
 @media (max-width:300px){
     div#logo{
         background: inherit;

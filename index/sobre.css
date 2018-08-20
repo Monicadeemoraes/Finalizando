@@ -58,14 +58,13 @@ a{
     
 }
 
-@media (max-width:600px) {
-    #img{
-        position: absolute;
-    }
+@media (max-width:400px) {
     .sobre {
         font-size: 10pt;
         color:black;
     }
-    
+    a{
+        font-size: 7pt;
+    }
 
 }
