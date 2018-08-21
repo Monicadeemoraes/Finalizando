@@ -153,23 +153,60 @@ h1{
     }
 
     .coluna{
-        font-size: 7pt;
+        /* font-size: 7pt; */
+        display: none;
     }
     h1#helpet{
-        font-size:9pt;
+        font-size:12pt;
     }
     .imglogo{
-        /* display: none; */
+        display: none;
         size: 10mm;
     }
 
     section{
         flex-direction: column;
+        align-items: center;
+        background-image: url(../imagens/simbolos/logodigital.jpeg);
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-color: white;
+        background-position: center;
+       
+        
+    }
+
+    .comofunciona{
+        background: none;
+    }
+
+    .contato{
+        background: none;
+    }
+
+    .equipe{
+        background: none;
+    }
+    .sobre{
+        background: none;
     }
 }
 
 @media (max-width:300px){
     div#logo{
-        background: inherit;
+        width: 50vw;
+        font-size:12pt;        
+        /* background: inherit; */
+    }
+
+    h1#helpet{
+        font-size: 9pt;
+    }
+
+    div#barra{
+        width: 40vw;
+        align-self: center;
+        text-align: center;
+
     }
 }
