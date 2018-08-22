@@ -107,3 +107,27 @@ a{
     font-family: 'Comfortaa', cursive;
     
 }
+
+@media (max-width:800px) {
+    .voltar{
+        font-size: 7pt;
+    }
+    .logo{
+        display:none;
+    }
+    .cabecalho{
+        font-size: 10pt;
+    }
+
+    .form{
+        font-size: 7pt;
+    }
+
+    .form3{
+        font-size: 7pt;
+    }
+    .send{
+        font-size: 8pt;
+    }
+
+}

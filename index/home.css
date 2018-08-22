@@ -126,6 +126,7 @@ h1{
     width: 19vw;
     align-self: flex-start;
     border-radius: 2%;
+    text-align: center;
 }
 
 #barra a{

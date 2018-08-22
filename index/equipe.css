@@ -91,4 +91,32 @@ a{
 
 .ajusteone {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width:800px) {
+.voltar{
+    font-size: 7pt;
+}
+.logo{
+    display:none;
+}
+.cabecalho{
+    font-size: 12pt;
+}
+.equipea{
+    display: none;
+}
+.equipeb{
+    display: none;
+}
+.nome{
+    margin-left: 0%;
+}
+.nome:hover{
+    font-size: 20pt;
+    transition-duration: 1.5s;
+    color:rgba(0, 0, 0, 0.644);
+}
 }

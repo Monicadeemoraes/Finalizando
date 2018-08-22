@@ -37,7 +37,7 @@ h1{
 }
 h2{
     color: gray;
-    font-size: 20pt;
+    font-size: 12pt;
     font-weight: lighter;
 }
 #leg{
@@ -70,7 +70,7 @@ h2{
 
 .itens{
     display: flex;
-    height: 9%;   
+    height: 6%;   
 }
 
 .cabecalho{
@@ -87,4 +87,32 @@ a{
     padding-top: 28%;
     font-family: 'Comfortaa', cursive;
     
+}
+
+@media (max-width:600px) {
+    .texto{
+        font-size: 8pt;
+        color:black;
+    }
+
+    .cf{
+        font-size: 12pt;
+    }
+    .voltar{
+        font-size: 7pt;
+    }
+    .coluna{
+        font-size: 5pt;
+    }
+
+    div#leg.leg{
+       display: none;
+    }
+    
+    
+
+    img.logo{
+        display: none;
+    }
+
 }

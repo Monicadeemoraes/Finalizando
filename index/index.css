@@ -50,3 +50,30 @@ a:hover{
     color:rgba(0, 0, 0, 0.644);
 
 }
+
+@media (max-width: 600px){
+    body{
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../imagens/simbolos/logohelpets.jpeg);
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-color: white;
+        background-position: center;
+    }
+    h2{
+        display:none;
+    }
+    div#patinha.patinha{
+        display:none;
+    }
+
+    .acesso{
+        font-size: 10pt;
+    }
+    a:hover{
+        font-size: 16pt;
+
+    
+}
